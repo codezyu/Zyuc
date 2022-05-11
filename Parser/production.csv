@@ -1,0 +1,18 @@
+S,id = E
+S,if C then S
+S,if C then S else S
+S, while C do S
+C, E > E
+C, E < E
+C, E == E
+E, E + T
+E, E - T
+E, T
+T, F
+T, T * F
+T, T / F
+F, ( E )
+F, id
+F,int8
+F,int10
+F,int16

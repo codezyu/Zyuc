@@ -1,0 +1,3 @@
+"D:\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ZyuC.dir/objects.a
+D:\MingGW\mingw64\bin\ar.exe qc CMakeFiles\ZyuC.dir/objects.a @CMakeFiles\ZyuC.dir\objects1.rsp
+D:\MingGW\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ZyuC.dir/objects.a -Wl,--no-whole-archive -o ZyuC.exe -Wl,--out-implib,libZyuC.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ZyuC.dir\linklibs.rsp
